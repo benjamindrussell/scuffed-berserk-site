@@ -1,0 +1,282 @@
+@font-face {
+  font-family: "CC Wild Words Roman";
+  src: url(wildWordsRoman.ttf)format("truetype")
+}
+
+* {
+  box-sizing: border-box
+}
+
+.background {
+  width: 100%;
+  background-image: url(background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.background,.music,.music2,.noBackground {
+  background-color: #141516
+}
+
+h1 {
+  text-align: center
+}
+
+body {
+  margin: 0
+}
+
+audio {
+  height: 12px;
+  margin-top: 3px;
+  margin-left: 20px
+}
+
+#sound {
+  height: 12px;
+  margin-left: 25px
+}
+
+.music,.music2 {
+  display: flex;
+  width: 400px;
+  margin: 2px 2px 2px 515px;
+  border: 1px solid #696969;
+  height: 20px
+}
+
+.music2 {
+  border: 1px solid #cf0a0a
+}
+
+.header {
+  height: 70px;
+  max-width: 500px;
+  border: 1px solid #696969;
+  border-radius: 1px;
+  margin: 350px auto 2px
+}
+
+.header,.header2,.nav {
+  background-color: #141516
+}
+
+.header2 {
+  height: 70px;
+  max-width: 500px;
+  border: 1px solid #cf0a0a;
+  border-radius: 1px;
+  margin: 350px auto 2px
+}
+
+#mainHead {
+  font-size: 40px;
+  margin: 15px 0 0;
+  font-family: CC Wild Words Roman;
+  color: #cf0a0a
+}
+
+.nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  border: 1px solid #696969;
+  float: left;
+  left: 0;
+  z-index: 999;
+  display: flex
+}
+
+.nav span {
+  font-size: 25px;
+  padding-left: 150px;
+  line-height: 100px;
+  text-decoration: none!important
+}
+
+.main,.mainIntro {
+  height: 500px;
+  margin: 350px 0 2px;
+  display: flex
+}
+
+.mainCasca,.mainGuts,.mainMiura {
+  height: 500px;
+  margin: 300px 0 2px;
+  display: flex
+}
+
+.mainCasca {
+  margin: 250px 0 2px
+}
+
+.blkSwrdImg,.convictArcImg,.falconImg,.fantasiaImg,.goldAgeImg {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.blkSwrdImg {
+  top: 50;
+  background-image: url(blackSword2.jpg);
+  margin-top: 300px
+}
+
+.convictArcImg,.falconImg,.fantasiaImg,.goldAgeImg {
+  background-image: url(goldAge.jpg);
+  top: 100
+}
+
+.convictArcImg,.falconImg,.fantasiaImg {
+  background-image: url(convictArc.jpg)
+}
+
+.falconImg,.fantasiaImg {
+  background-image: url(falcon.jpg)
+}
+
+.fantasiaImg {
+  background-image: url(fantasia.jpg);
+  top: 150
+}
+
+.main2,.mainArt {
+  margin: 350px 0 2px;
+  display: flex
+}
+
+.main2 {
+  height: 500px;
+  border: 1px solid #696969;
+  border-radius: 1px;
+  margin: 0 0 2px
+}
+
+.introP {
+  font-family: CC Wild Words Roman;
+  color: #cf0a0a;
+  background-color: #141516;
+  padding: 10px;
+  border: 1px solid (105,105,105);
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+  overflow: scroll;
+  height: 300px;
+  margin: 90px 25px
+}
+
+.arc,.charP,.introP {
+  border-radius: 1px
+}
+
+.charP {
+  font-family: CC Wild Words Roman;
+  color: #cf0a0a;
+  background-color: #141516;
+  padding: 15px 10px;
+  border: 1px solid (105,105,105);
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+  overflow: scroll;
+  height: 350px;
+  margin: 50px 25px
+}
+
+.arc {
+  width: 100%;
+  border: 1px #141516
+}
+
+.arc p,.footer h1,.nav span {
+  font-family: CC Wild Words Roman;
+  color: #cf0a0a
+}
+
+.arc p {
+  padding: 10px;
+  line-height: 1.2;
+  text-align: center
+}
+
+.arc span {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto;
+  text-decoration: underline
+}
+
+.behelitLink {
+  height: 85px;
+  margin: 7px 150px;
+  position: relative
+}
+
+#logo,.footer {
+  background-color: #141516
+}
+
+.footer {
+  height: 40px;
+  border: 2px solid #000;
+  border-radius: 1px
+}
+
+.footer h1 {
+  font-size: 15px
+}
+
+.charPic,.introPic {
+  max-height: 400px;
+  margin: 50px;
+  border: 1px solid #141516;
+  border-radius: 1px
+}
+
+.charPic {
+  margin: 25px 25px 25px 50px
+}
+
+#logo {
+  height: 90px;
+  margin: 4px 0 0 5px;
+  float: left;
+  padding: 3px
+}
+
+#behelit {
+  height: 85px;
+  margin-left: 5px
+}
+
+#behelitGif {
+  position: absolute;
+  height: 85px;
+  left: 0;
+  top: 0;
+  opacity: 0
+}
+
+#behelitGif:hover {
+  opacity: 1
+}
+
+#berserker,#eclipse {
+  height: 950px;
+  margin-left: 20px
+}
+
+#berserker {
+  margin-left: 10px
+}
+
+.bigPic {
+  margin: 30px 12px 12px;
+  width: 98%
+}
